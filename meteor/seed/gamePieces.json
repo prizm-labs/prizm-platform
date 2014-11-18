@@ -1,0 +1,316 @@
+{
+  "gamePieces": [
+    {
+      "type": "card", "title": { "en": "Ace of Diamonds" }, "assets": {
+        "images": ["back-red","A-d"] }, "profile": {
+          "value": 1, "suit" : "diamonds"
+        }
+    },
+    {
+      "type": "card", "title": { "en": "Two of Diamonds" }, "assets": {
+        "images": ["back-red","2-d"] }, "profile": {
+          "value": 2, "suit" : "diamonds"
+        }
+    },
+    {
+      "type": "card", "title": { "en": "Three of Diamonds" }, "assets": {
+        "images": ["back-red","3-d"] }, "profile": {
+          "value": 3, "suit" : "diamonds"
+        }
+    },
+    {
+      "type": "card", "title": { "en": "Four of Diamonds" }, "assets": {
+        "images": ["back-red","4-d"] }, "profile": {
+          "value": 4, "suit" : "diamonds"
+        }
+    },
+    {
+      "type": "card", "title": { "en": "Five of Diamonds" }, "assets": {
+        "images": ["back-red","5-d"] }, "profile": {
+          "value": 5, "suit" : "diamonds"
+        }
+    },
+    {
+      "type": "card", "title": { "en": "Six of Diamonds" }, "assets": {
+        "images": ["back-red","6-d"] }, "profile": {
+          "value": 6, "suit" : "diamonds"
+        }
+    },
+    {
+      "type": "card", "title": { "en": "Seven of Diamonds" }, "assets": {
+        "images": ["back-red","7-d"] }, "profile": {
+          "value": 7, "suit" : "diamonds"
+        }
+    },
+    {
+      "type": "card", "title": { "en": "Eight of Diamonds" }, "assets": {
+        "images": ["back-red","8-d"] }, "profile": {
+          "value": 8, "suit" : "diamonds"
+        }
+    },
+    {
+      "type": "card", "title": { "en": "Nine of Diamonds" }, "assets": {
+        "images": ["back-red","9-d"] }, "profile": {
+          "value": 9, "suit" : "diamonds"
+        }
+    },
+    {
+      "type": "card", "title": { "en": "Ten of Diamonds" }, "assets": {
+        "images": ["back-red","10-d"] }, "profile": {
+          "value": 10, "suit" : "diamonds"
+        }
+    },
+    {
+      "type": "card", "title": { "en": "Jack of Diamonds" }, "assets": {
+        "images": ["back-red","J-d"] }, "profile": {
+          "value": 11, "suit" : "diamonds"
+        }
+    },
+    {
+      "type": "card", "title": { "en": "Queen of Diamonds" }, "assets": {
+        "images": ["back-red","Q-d"] }, "profile": {
+          "value": 12, "suit" : "diamonds"
+        }
+    },
+    {
+      "type": "card", "title": "King of Diamonds", "assets": {
+        "images": ["back-red","K-d"] }, "profile": {
+          "value": 13, "suit" : "diamonds"
+        }
+    },
+    {
+      "type": "card", "title": { "en": "Ace of Clubs" }, "assets": {
+        "images": ["back-red","A-c"] }, "profile": {
+          "value": 1, "suit" : "clubs"
+        }
+    },
+    {
+      "type": "card", "title": { "en": "Two of Clubs" }, "assets": {
+        "images": ["back-red","2-c"] }, "profile": {
+          "value": 2, "suit" : "clubs"
+        }
+    },
+    {
+      "type": "card", "title": { "en": "Three of Clubs" }, "assets": {
+        "images": ["back-red","3-c"] }, "profile": {
+          "value": 3, "suit" : "clubs"
+        }
+    },
+    {
+      "type": "card", "title": { "en": "Four of Clubs" }, "assets": {
+        "images": ["back-red","4-c"] }, "profile": {
+          "value": 4, "suit" : "clubs"
+        }
+    },
+    {
+      "type": "card", "title": { "en": "Five of Clubs" }, "assets": {
+        "images": ["back-red","5-c"] }, "profile": {
+          "value": 5, "suit" : "clubs"
+        }
+    },
+    {
+      "type": "card", "title": { "en": "Six of Clubs" }, "assets": {
+        "images": ["back-red","6-c"] }, "profile": {
+          "value": 6, "suit" : "clubs"
+        }
+    },
+    {
+      "type": "card", "title": { "en": "Seven of Clubs" }, "assets": {
+        "images": ["back-red","7-c"] }, "profile": {
+          "value": 7, "suit" : "clubs"
+        }
+    },
+    {
+      "type": "card", "title": { "en": "Eight of Clubs" }, "assets": {
+        "images": ["back-red","8-c"] }, "profile": {
+          "value": 8, "suit" : "clubs"
+        }
+    },
+    {
+      "type": "card", "title": { "en": "Nine of Clubs" }, "assets": {
+        "images": ["back-red","9-c"] }, "profile": {
+          "value": 9, "suit" : "clubs"
+        }
+    },
+    {
+      "type": "card", "title": { "en": "Ten of Clubs" }, "assets": {
+        "images": ["back-red","10-c"] }, "profile": {
+          "value": 10, "suit" : "clubs"
+        }
+    },
+    {
+      "type": "card", "title": { "en": "Jack of Clubs" }, "assets": {
+        "images": ["back-red","J-c"] }, "profile": {
+          "value": 11, "suit" : "clubs"
+        }
+    },
+    {
+      "type": "card", "title": { "en": "Queen of Clubs" }, "assets": {
+        "images": ["back-red","Q-c"] }, "profile": {
+          "value": 12, "suit" : "clubs"
+        }
+    },
+    {
+      "type": "card", "title": "King of Clubs", "assets": {
+        "images": ["back-red","K-c"] }, "profile": {
+          "value": 13, "suit" : "clubs"
+        }
+    },
+    {
+      "type": "card", "title": { "en": "Ace of Hearts" }, "assets": {
+        "images": ["back-red","A-h"] }, "profile": {
+          "value": 1, "suit" : "hearts"
+        }
+    },
+    {
+      "type": "card", "title": { "en": "Two of Hearts" }, "assets": {
+        "images": ["back-red","2-h"] }, "profile": {
+          "value": 2, "suit" : "hearts"
+        }
+    },
+    {
+      "type": "card", "title": { "en": "Three of Hearts" }, "assets": {
+        "images": ["back-red","3-h"] }, "profile": {
+          "value": 3, "suit" : "hearts"
+        }
+    },
+    {
+      "type": "card", "title": { "en": "Four of Hearts" }, "assets": {
+        "images": ["back-red","4-h"] }, "profile": {
+          "value": 4, "suit" : "hearts"
+        }
+    },
+    {
+      "type": "card", "title": { "en": "Five of Hearts" }, "assets": {
+        "images": ["back-red","5-h"] }, "profile": {
+          "value": 5, "suit" : "hearts"
+        }
+    },
+    {
+      "type": "card", "title": { "en": "Six of Hearts" }, "assets": {
+        "images": ["back-red","6-h"] }, "profile": {
+          "value": 6, "suit" : "hearts"
+        }
+    },
+    {
+      "type": "card", "title": { "en": "Seven of Hearts" }, "assets": {
+        "images": ["back-red","7-h"] }, "profile": {
+          "value": 7, "suit" : "hearts"
+        }
+    },
+    {
+      "type": "card", "title": { "en": "Eight of Hearts" }, "assets": {
+        "images": ["back-red","8-h"] }, "profile": {
+          "value": 8, "suit" : "hearts"
+        }
+    },
+    {
+      "type": "card", "title": { "en": "Nine of Hearts" }, "assets": {
+        "images": ["back-red","9-h"] }, "profile": {
+          "value": 9, "suit" : "hearts"
+        }
+    },
+    {
+      "type": "card", "title": { "en": "Ten of Hearts" }, "assets": {
+        "images": ["back-red","10-h"] }, "profile": {
+          "value": 10, "suit" : "hearts"
+        }
+    },
+    {
+      "type": "card", "title": { "en": "Jack of Hearts" }, "assets": {
+        "images": ["back-red","J-h"] }, "profile": {
+          "value": 11, "suit" : "hearts"
+        }
+    },
+    {
+      "type": "card", "title": { "en": "Queen of Hearts" }, "assets": {
+        "images": ["back-red","Q-h"] }, "profile": {
+          "value": 12, "suit" : "hearts"
+        }
+    },
+    {
+      "type": "card", "title": "King of Hearts", "assets": {
+        "images": ["back-red","K-h"] }, "profile": {
+          "value": 13, "suit" : "hearts"
+        }
+    },
+    {
+      "type": "card", "title": { "en": "Ace of Spades" }, "assets": {
+        "images": ["back-red","A-s"] }, "profile": {
+          "value": 1, "suit" : "spades"
+        }
+    },
+    {
+      "type": "card", "title": { "en": "Two of Spades" }, "assets": {
+        "images": ["back-red","2-s"] }, "profile": {
+          "value": 2, "suit" : "spades"
+        }
+    },
+    {
+      "type": "card", "title": { "en": "Three of Spades" }, "assets": {
+        "images": ["back-red","3-s"] }, "profile": {
+          "value": 3, "suit" : "spades"
+        }
+    },
+    {
+      "type": "card", "title": { "en": "Four of Spades" }, "assets": {
+        "images": ["back-red","4-s"] }, "profile": {
+          "value": 4, "suit" : "spades"
+        }
+    },
+    {
+      "type": "card", "title": { "en": "Five of Spades" }, "assets": {
+        "images": ["back-red","5-s"] }, "profile": {
+          "value": 5, "suit" : "spades"
+        }
+    },
+    {
+      "type": "card", "title": { "en": "Six of Spades" }, "assets": {
+        "images": ["back-red","6-s"] }, "profile": {
+          "value": 6, "suit" : "spades"
+        }
+    },
+    {
+      "type": "card", "title": { "en": "Seven of Spades" }, "assets": {
+        "images": ["back-red","7-s"] }, "profile": {
+          "value": 7, "suit" : "spades"
+        }
+    },
+    {
+      "type": "card", "title": { "en": "Eight of Spades" }, "assets": {
+        "images": ["back-red","8-s"] }, "profile": {
+          "value": 8, "suit" : "spades"
+        }
+    },
+    {
+      "type": "card", "title": { "en": "Nine of Spades" }, "assets": {
+        "images": ["back-red","9-s"] }, "profile": {
+          "value": 9, "suit" : "spades"
+        }
+    },
+    {
+      "type": "card", "title": { "en": "Ten of Spades" }, "assets": {
+        "images": ["back-red","10-s"] }, "profile": {
+          "value": 10, "suit" : "spades"
+        }
+    },
+    {
+      "type": "card", "title": { "en": "Jack of Spades" }, "assets": {
+        "images": ["back-red","J-s"] }, "profile": {
+          "value": 11, "suit" : "spades"
+        }
+    },
+    {
+      "type": "card", "title": { "en": "Queen of Spades" }, "assets": {
+        "images": ["back-red","Q-s"] }, "profile": {
+          "value": 12, "suit" : "spades"
+        }
+    },
+    {
+      "type": "card", "title": "King of Spades", "assets": {
+        "images": ["back-red","K-s"] }, "profile": {
+          "value": 13, "suit" : "spades"
+        }
+    }
+  ]
+}
