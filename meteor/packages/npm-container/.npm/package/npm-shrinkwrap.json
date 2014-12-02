@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+    "node-osc": {
+      "version": "0.3.0",
+      "dependencies": {
+        "jspack": {
+          "version": "0.0.1"
+        },
+        "osc-min": {
+          "version": "0.0.5",
+          "dependencies": {
+            "binpack": {
+              "version": "0.1.0"
+            },
+            "coffee-script": {
+              "version": "1.3.0"
+            }
+          }
+        }
+      }
+    }
+  }
+}
