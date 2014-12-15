@@ -12,6 +12,8 @@ if (Meteor.isClient) {
     'click button': function () {
       // increment the counter when button is clicked
       Session.set("counter", Session.get("counter") + 1);
+
+      Meteor.call("testSocket");
     }
   });
 }
@@ -20,4 +22,12 @@ if (Meteor.isServer) {
   Meteor.startup(function () {
     // code to run on server at startup
   });
+
+  Meteor.methods({
+    testSocket: function(){
+      console.log('testSocket');
+      if (socketCache) socketCache.write("push button");
+      //socketCache.pipe(socketCache);
+    }
+  })
 }
