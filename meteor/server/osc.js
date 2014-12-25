@@ -11,7 +11,13 @@ oscServer.on("message", function (msg, rinfo) {
     console.log("Message:");
     console.log(msg);
 
-    if (socketCache) soccketCache.write(parseMessage(msg));
+    msg = JSON.stringify(parseMessage(msg));
+
+    if (socketCache.length>0) {
+      _.each(socketCache, function(socket) {
+        socket.write(msg)
+      });
+    }
 });
 
 oscServer.on("listening", function () {
@@ -19,16 +25,30 @@ oscServer.on("listening", function () {
   console.log("server listening " +
       address.address + ":" + address.port);
 });
+//0.04327, 0.9538
+//0.95791, 0.04019
+
+// calibration = {
+//   //offset: { x: [0.012,0.988], y: [0.012,0.988] },
+//   offset: { x: [0.0415,0.954], y: [0.0415,0.954] },
+//   size: { x:1920, y:1080 }
+// }
+
+// origin of point returned is bottom-left corner
 
 calibration = {
-  offset: { x: [0.012,0.988], y: [0.012,0.988] },
-  size: { x:1920, y:1080 }
+  offset: { x: [0.215,0.787], y: [0.215,0.787] },
+  size: { x:568, y:320 }
 }
 
 calibration.delta = {
   x: calibration.offset.x[1]-calibration.offset.x[0],
   y: calibration.offset.y[1]-calibration.offset.y[0]
 }
+
+calibration.isFlipped = true;
+calibration.originAtTopLeft = true;
+calibration.originAtBottomLeft = false;
 
 // calibration.unit = {
 //   x: calibration.delta.x/calibration.size.x,
@@ -85,7 +105,7 @@ function parseMessage(msg) {
 
   return {
     //"messageType": msg[0],
-    "timestamp": msg[1],
+    //"timestamp": msg[1],
     "fseq": msg[msg.length-1][2],
     "summary": summary,
     "points": points
@@ -98,7 +118,15 @@ function formatX(raw) {
 
   if (raw>=calibration.offset.x[0] && raw<=calibration.offset.x[1]) {
 
-    return (raw-calibration.offset.x[0])/calibration.delta.x*calibration.size.x;
+    if (calibration.isFlipped) {
+      return ( 1-(raw-calibration.offset.x[0])/calibration.delta.x)*calibration.size.x;
+
+    } else {
+      return ((raw-calibration.offset.x[0])/calibration.delta.x)*calibration.size.x;
+
+    }
+    
+
 
   } else {
     return null;
@@ -111,8 +139,14 @@ function formatY(raw) {
 
   if (raw>=calibration.offset.y[0] && raw<=calibration.offset.y[1]) {
 
-    return ( 1-((raw-calibration.offset.y[0])/calibration.delta.y) )*calibration.size.y;
+    if (calibration.isFlipped && calibration.originAtBottomLeft) {
+      return ((raw-calibration.offset.y[0])/calibration.delta.y)*calibration.size.y;
 
+    } else {
+      return ( 1-((raw-calibration.offset.y[0])/calibration.delta.y) )*calibration.size.y;
+
+    }
+    
   } else {
     return null;
   }
